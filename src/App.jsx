@@ -1,14 +1,10 @@
-import Title from "./title"
+
 
 function App() {
 
-    
-
-    
-
     return (       
            <div>
-               <Title/>
+               aaaaa
            </div>
     )
 }
