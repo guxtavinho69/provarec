@@ -1,0 +1,62 @@
+.itens{
+    
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  list-style: none;
+  font-size: 18px;
+  margin: 24px;
+  border-width: 0px;
+}
+.Tbotao, .itens button{
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.botao{
+  color: #FF000f;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 0px;
+}
+.botao:hover, .itens button:hover{
+  background-color: #bebebe;
+}
+.botao2{
+  background-color: #FF000f;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 0px;
+}
+.logo{
+  width: 150px;
+  height: 150px;
+}
+.destaque{
+  font-weight: bold;
+}
+.img{
+  width: 150px;
+  height: 150px;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.componentes{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  font-size: 18px;
+  margin: 24px;
+  border: 1px;
+  border-color: black;
+}
+.item{
+  border: 1px;
+  border-color: black;
+}
